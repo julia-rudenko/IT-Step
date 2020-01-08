@@ -1,0 +1,71 @@
+body {
+	background-color: #f2f2f2;
+}
+.creditcard {
+	margin: 100px;
+	background-color: #B0D4DF;
+	width: 400px;
+	height: 250px;
+	border-radius: 20px;
+}
+.carddetails {
+	background-color: #DB4F13;
+	width: 280px;
+	height: 25px;
+	color: #f2f2f2;
+	font-weight: bold;
+	font-size: 15px;
+	position: relative;
+	top: 20px;
+	left: -20px;
+	padding-left: 30px;
+	padding-top: 8px;
+}
+.other {
+	padding-top: 30px;
+	padding-left: 20px;
+}
+.lables {
+	color: grey;
+	height: 20px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	font-size: 12px;
+}
+.one {
+	background-color: #96B8CC;
+	border: transparent;
+	border-bottom: 2px solid #999999;
+	height: 23px;
+	width: 230px;
+	margin-bottom: 3px;
+	padding-left: 5px;
+}
+.two {
+	width: 50px;
+	background-color: #96B8CC;
+	border: transparent;
+	border-bottom: 2px solid #999999;
+	height: 23px;
+	margin-bottom: 3px;
+	padding-left: 5px;
+}
+.last {
+	display: grid;
+	grid-template-areas: 
+	"first second";
+	grid-template-rows: 70px;
+	grid-template-columns: 180px 80px;
+}
+#first {
+	grid-area: first;
+}
+#second {
+	grid-area: second;
+}
+#moon {
+	width: 150px;
+	position: absolute;
+	left: 350px;
+	top: 206px;
+}
