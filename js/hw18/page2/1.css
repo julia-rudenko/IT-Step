@@ -1,0 +1,110 @@
+.adsboard_down {
+	margin-top: 10px;
+}
+.first {
+	background-color: #f5f5f5;
+	margin-bottom: 20px;
+}
+.img1 {
+	width: 5vw;
+}
+#buttonnewad {
+	background-color: #F6CA1A;
+	border-color: transparent;
+	max-width: 100px;
+	max-height: 35px;
+	border-radius: 5px;
+	max-margin-right: 10px;
+}
+.av_64 {
+	width: 25%;
+}
+.Search {
+	min-height: 60px;
+	background-color: #cecece;
+	padding-top: 15px;
+	padding-left: 15px;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+.icons_search_bck {
+	float: left;
+	margin-left: 20px;
+	height: 30px;
+	background-color: #f2f2f2;
+	border-radius: 5px 0 0 5px;
+	text-align: left;
+	padding-top: 3px;
+}
+.icons_search {
+	width: 20px;
+	padding-bottom: 4px;
+}
+.one {
+	float: left;
+	width: 80%;
+	border-radius: 0 5px 5px 0;
+	border-color: transparent;
+}
+#search_button {
+	background-color: #208BD7;
+	color: white;
+	width: 80%;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #208BD7;
+	margin-left: 7%;
+}
+
+
+
+#two {
+	height: 30px;
+	border-radius: 5px;
+}
+.brdr {
+	border: 1.5px solid #cecece;
+	border-radius: 5px;
+}
+.visual_product {
+	width: 100%;
+}
+.text_top {
+	font-size: 20px;
+	color: #4677A4;
+}
+#marg_top {
+	margin-top: 20%;
+}
+.text_left {
+	font-size: 10px;
+	margin-right: 20px;
+	color: grey;
+}
+.text_right {
+	font-size: 10px;
+	color: grey;
+}
+.little_pic {
+	width: 8%;
+	color: grey;
+}
+.price {
+	font-size: 24px;
+}
+.lft {
+	margin-right: 8%;
+}
+.pass {
+	height: 1vh;
+}
+
+
+.img2 {
+	width: 50%;
+	margin-top: 20%;
+	margin-left: 20%;
+}
+.ftr {
+	color: #4677A4;
+}
