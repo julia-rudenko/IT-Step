@@ -11,6 +11,17 @@ $(document).ready(function(){
 	function showPosition(position) {
 		coordLat = position.coords.latitude;
 		coordLon = position.coords.longitude;
+		$.ajax({
+			type: "POST",
+			url: "https://api.openweathermap.org/data/2.5/onecall?lat=" + coordLat + '&lon=' + coordLon + '&exclude=current,minutely,hourly' + '&appid'+ apikey,
+			dataType: "json",
+			success: function (result, status, xhr) {
+				console.log('hello');
+			},
+			error: function (xhr, status, error) {
+				alert("Result: " + status + " " + error + " " + xhr.status + " " + xhr.statusText)
+			}
+		});
 	}
 
 	function showError(error) {
@@ -29,15 +40,5 @@ $(document).ready(function(){
 				break;
 		}
 	} 
-	$.ajax({
-        type: "POST",
-        url: "https://api.openweathermap.org/data/2.5/onecall?lat=" + coordLat + '&lon=' + coordLon + '&appid'+ apikey,
-        dataType: "json",
-        success: function (result, status, xhr) {
-        	console.log('hello');
-        },
-        error: function (xhr, status, error) {
-			alert("Result: " + status + " " + error + " " + xhr.status + " " + xhr.statusText)
-        }
-	});
+	
 });
